@@ -1,0 +1,10 @@
+{
+  "name": "nodejs-web-app10",
+  "version": "0.0.0",
+  "description": "NodejsWebApp10",
+  "main": "server.js",
+  "author": {
+    "name": "LAPTOP",
+    "email": ""
+  }
+}
