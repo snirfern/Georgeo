@@ -3,13 +3,9 @@
  ////////////////-----> Filter values  <--------///////////////
  ///////////////////////////////////////////////////////////////
 
-var JobTilteDesc = ['informatica','צ"ר','יאסדנה','ייצור','רוציי','embedded','pl','cach','intersystem','dsp','siebel','cobol','gpa','university','known','manager','lead','team lead','הסונמ','tibco','osb','סדנהמ ',' scala ','rpg','magic','wordpress','סרפדרוו','תויתרבח תותשר','טנרטניא','sharepoint','יארחא','++c','c++','leader','ios','soi',' qa ',' integration ','project manager',' php',' senior ',' react ','reduce','linux','unix',' senior ',' manager','היצמוטוא','הנכות קדוב','ריכב ','תווצ שאר','קדוב','ראש צוות','להנמ','מנהל','vb','sales','םוסרפ','engineer'];
-var Location = ['tel-hai','telhai','tel hai','eilat','תליא','יח-לת','יחלת','יח לת','הנומש-תיירק','הנומש תיירק'];
 
-var WantedContent = ['junior',' c#',' c ','.net','dotnet','dot net','js','javascript','java script','nodejs','node js','java','bsc','html','html5','css','android','jquery','sql','no sql','nosql','mongodb','mongo db','oop','web','client','frontend','front-end','developer'];
 
-var Experiment = ['3','4','5','6','7','10','םייתנש'];
-		
+/****************--^^--Censored code--^^--************/
 
  ///////////////////////////////////////////////////////////////
  ///////////////////////////////////////////////////////////////
