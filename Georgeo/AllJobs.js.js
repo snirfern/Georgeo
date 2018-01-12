@@ -128,43 +128,9 @@ PagesNumberPerSearch =2;
 //////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////ALLPageInterval - iterate all pages//////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////
-function AllPagesInterval(URL)
-{
-		var Pages= 0;
-
-	console.log("GOT IN");
-var AllPagesInterval = setInterval(function(){
-
-	var numbers="";
-if (  SubPageURL && Pages != PagesNumberPerSearch )
-{
-	var UpdatedURL = URL;
-
-
-Pages=Pages+1;
-
-console.log("Pages agter ++:"+Pages);
-	UpdatedURL ='https://www.alljobs.co.il/SearchResultsGuest.aspx?page='+Pages+URL.substring(56,URL.length);
-		OnePageInterval(UpdatedURL);
-	numbers+=Pages+',';
-
-	SubPageURL = false;
 	
-}
- else if ( Pages == PagesNumberPerSearch )
-{
-	console.log("Finished loading all current date pages");
-		FinishedLoadingURL=true;	
-URLcounter++;
-
-		clearInterval(AllPagesInterval);
-
-}
-
-	},40000);
-
-
-}
+	
+/****************--^^--Censored code--^^--************/
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////
@@ -182,65 +148,7 @@ URLcounter++;
 /////////////////////////OnePageInterval - Send All cvs in page///////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////
 
-function OnePageInterval(URL)
-{
-	console.log(URL);
-	var FivePages=0;
-	var secondcounter = 0;
-var interval = setInterval(function(){
-
-if (typeof steps[StepsCounter]== "function"  && !loadInProgress    )
-{
-	cvFlag=true;
-	if ( StepsCounter==6)
-	{
-		steps[StepsCounter](URL);
-			StepsCounter++;
-
-	}
-	else
-	{
-	steps[StepsCounter]();
-	StepsCounter++;
-	page.render('login1.png');
-	}
-}
-else if (typeof steps[StepsCounter]!= "function"  ) 
-{
-	if ( cvFlag)
-	{
-				if ( typeof send[secondcounter]=="function" && !loadInProgress && Appliance != SendCV)
-				{
-					send[secondcounter](FilteredJson[SendCV].i);
-					secondcounter++;
-				}
-				else if ( Appliance != SendCV)
-				{
-
-					SendCV++;
-					secondcounter=0;
-
-				}
-				else  
-				{
-					cvFlag=false;
-										secondcounter=0;
-
-				}
-	}
-	else
-	{
-
-	StepsCounter=6;
-	SubPageURL=true;
-	SendCV=0;
-	clearInterval(interval);
-}
-}
-
-},15000);
-}
-
+/****************--^^--Censored code--^^--************/
 
 //////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////
