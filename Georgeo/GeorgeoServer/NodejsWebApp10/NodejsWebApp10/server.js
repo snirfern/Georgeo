@@ -9,7 +9,6 @@ var json = [];
 app.use(express.static('public'));
 
 
-var cock = "snir";
 
 
 app.get('/', function (req, res) {
